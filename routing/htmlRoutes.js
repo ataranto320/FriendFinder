@@ -2,7 +2,6 @@
 var path = require("path");
 
 // routing
-
 module.exports = function(app) {
   // html GET Requests
   // below code handles when users "visit" a page

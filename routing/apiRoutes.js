@@ -5,7 +5,6 @@
 var friendsData = require("app/data/friendsData");
 
 // routing
-
 module.exports = function(app) {
   // API GET Requests
   // below code handles when users "visit" a page
