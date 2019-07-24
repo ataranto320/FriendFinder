@@ -15,6 +15,7 @@ app.use(express.json());
 
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
+//"Users/austin/Desktop/Trilogy-Hw/FriendFinder/public/home.html"
 
 // the below code effectively "starts" our server
 

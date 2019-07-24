@@ -3,6 +3,7 @@
 // these data sources hold arrays of information on friend-data, etc.
 
 var friendsData = require("app/data/friendsData");
+//friend.js
 
 // routing
 module.exports = function(app) {
