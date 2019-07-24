@@ -7,27 +7,82 @@ var friendArray = [
     {
       name: "Joe",
       photo: "ex linkedIn",
-      scores: [""]
+      scores: [
+          "4",
+          "3",
+          "5",
+          "1",
+          "4",
+          "3",
+          "2",
+          "5",
+          "1",
+          "2"
+      ]
     },
     {
         name: "Tom",
         photo: "ex linkedIn",
-        scores: [""]
+        scores: [
+          "3",
+          "4",
+          "4",
+          "5",
+          "4",
+          "3",
+          "4",
+          "5",
+          "3",
+          "4"
+        ]
       },
       {
         name: "Nancy",
         photo: "ex linkedIn",
-        scores: [""]
+        scores: [
+          "1",
+          "5",
+          "4",
+          "5",
+          "1",
+          "3",
+          "2",
+          "4",
+          "2",
+          "1"
+        ]
       },
       {
         name: "Bob",
         photo: "ex linkedIn",
-        scores: [""]
+        scores: [
+          "5",
+          "2",
+          "3",
+          "4",
+          "5",
+          "1",
+          "3",
+          "2",
+          "2",
+          "1"
+        ]
       },
       {
         name: "Allie",
         photo: "ex linkedIn",
-        scores: [""]
+        scores: [
+          "3",
+          "4",
+          "4",
+          "5",
+          "3",
+          "4",
+          "4",
+          "5",
+          "3",
+          "3"
+        ]
       },
   ];
   
