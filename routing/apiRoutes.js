@@ -2,8 +2,7 @@
 // we are linking our routes to a series of "data" sources
 // these data sources hold arrays of information on friend-data, etc.
 
-var friendsData = require("app/data/friendsData");
-//friend.js
+var friendsData = require("../app/data/friend.js");
 
 // routing
 module.exports = function(app) {

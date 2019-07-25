@@ -13,9 +13,9 @@ app.use(express.json());
 // the below points our server to a series of "route" files
 // these routes give our server a "map" of how to respond when users visit or request data from various URLs.
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
-//"Users/austin/Desktop/Trilogy-Hw/FriendFinder/public/home.html"
+require("./routing/apiRoutes")(app);
+require("./routing/htmlRoutes")(app);
+
 
 // the below code effectively "starts" our server
 
