@@ -2,7 +2,7 @@
 // we are linking our routes to a series of "data" sources
 // these data sources hold arrays of information on friend-data, etc.
 
-var friendsData = require("../app/data/friend.js");
+var friendsArray = require("../app/data/friend.js");
 
 // routing
 module.exports = function(app) {
@@ -26,6 +26,17 @@ module.exports = function(app) {
     // "server" will respond to requests and let users know the best friend match for them
     // it will do this by sending out the value "true" friend match
     // req.body is available since we're using the body parsing middleware
+
+    /**
+     * 
+     * variable called isMatch which is a boolean
+     * loop friends array
+     * compare array elements with req.body.scores
+     * 
+     * if two objects are same then set isMAtch to true, vice versa
+     * return isMatch
+     */
+
     if (friendsData.length < 5) {
       friendsData.push(req.body);
       res.json(true);
